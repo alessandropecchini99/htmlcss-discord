@@ -6,6 +6,12 @@
 	box-sizing: border-box;
 }
 
+ul {
+	list-style-type: none;
+	color: white;
+	line-height: 2.2rem;
+}
+
 body {
 	font-family: 'whitney';
 }
@@ -45,15 +51,11 @@ body {
 	font-size: 15px;
 }
 
-.navbar .links {
-	padding-right: 50px;
-}
-
-.links a:nth-child(1) {
+.links li:nth-child(1) {
 	padding-left: 0px;
 }
 
-.links a:nth-child(5) {
+.links li:nth-child(5) {
 	padding-right: 0px;
 }
 
@@ -64,7 +66,8 @@ body {
 #whitebutton {
 	background-color: white;
 	border-radius: 50px;
-	padding: 8px 13px 8px 13px;
+	padding: 8px 13px;
+	margin-inline: 27.5px;
 }
 
 /*--- JUMBO ---*/
@@ -96,7 +99,7 @@ body {
 #app-download {
 	background-color: white;
 	border: 0px;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 15px;
 	border-radius: 50px;
 	margin-right: 10px;
 }
@@ -105,7 +108,7 @@ body {
 	color: white;
 	background-color: rgb(44, 44, 44);
 	border: 0px;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 15px;
 	border-radius: 50px;
 	margin-left: 10px;
 }
@@ -113,8 +116,8 @@ body {
 /*--- MAIN ---*/
 
 main section {
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-top: 3.5rem;
+	padding-bottom: 3.5rem;
 }
 
 .section-feature .container {
@@ -142,7 +145,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	background-color: lightgrey;
 }
 
 .section-feature .image {
@@ -170,8 +173,9 @@ main section {
 	font-size: 15px;
 }
 
-img ~ img {
+#stars {
 	margin-top: 40px;
+	margin-bottom: -15px;
 }
 
 .section-full .container span {
@@ -183,7 +187,7 @@ img ~ img {
 	border-radius: 50px;
 	background-color: #7289DA;
 	color: white;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 15px;
 	margin-top: 30px;
 }
 
@@ -192,14 +196,14 @@ img ~ img {
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background-color: black; /* TODO: check value */
+	background-color: rgb(35,39,42);
 }
 
 footer .footer-top {
 	display: flex;
-	margin-bottom: 2rem;
+	margin-bottom: 1.3rem;
 	padding-bottom: 2rem;
-	border-bottom: 3px solid white; /* TODO: check value */
+	border-bottom: 1px solid #7289DA;
 }
 
 footer .column-socials {
@@ -210,7 +214,41 @@ footer .column-links {
 	flex: 0 0 15%;
 }
 
+#blue-title {
+	font-size: 27px;
+	margin-bottom: 10px;
+	line-height: 2.8rem;
+}
+
+.blue {
+	color: #7289DA;
+}
+
+#flag-ita {
+	height: 16px;
+	vertical-align: middle;
+}
+
+#p-ita {
+	vertical-align: middle;
+	font-size: 13px
+}
+
+#icons {
+	letter-spacing: 6px;
+	font-size: 1.1rem;
+}
+
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+}
+
+#register {
+	color: white;
+	border: 0px;
+	border-radius: 50px;
+	background-color: #7289DA;
+	padding: 10px 15px;
+	font-size: 12px;
 }
