@@ -6,6 +6,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'whitney';
+}
+
 /* general styles */
 
 .container {
@@ -13,6 +17,7 @@
 	margin-inline: auto;
 	padding-inline: 1rem;
 }
+
 
 /* header */
 
@@ -33,36 +38,79 @@
 	align-items: center;
 }
 
-.navbar .logo {
-	
-}
-
 .navbar .links a {
 	color: white;
 	text-decoration: none;
-	padding-inline: 25px;
+	padding-inline: 18px;
+	font-size: 15px;
 }
 
+.navbar .links {
+	padding-right: 50px;
+}
 
-/*
-.navbar .container > *:hover {
-	background-color: brown;
-	cursor: pointer;
-} */
+.links a:nth-child(1) {
+	padding-left: 0px;
+}
 
+.links a:nth-child(5) {
+	padding-right: 0px;
+}
+
+.login {
+	font-size: 15px;
+}
+
+#whitebutton {
+	background-color: white;
+	border-radius: 50px;
+	padding: 8px 13px 8px 13px;
+}
+
+/*--- JUMBO ---*/
 
 .jumbo .content {
-	max-width: 500px;
+	max-width: 800px;
+	min-height: 250px;
 	margin-inline: auto;
-	padding-inline: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	color: white;
+	font-size: 20px;
 }
 
 .jumbo {
 	padding-top: 3rem;
 	padding-bottom: 4rem;
+	background-size: cover;
+	background-image: url(../img/jumbo.png);
 }
 
-/* main */
+.jumbo .content p {
+	margin-top: 35px;
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+
+#app-download {
+	background-color: white;
+	border: 0px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+#app-browser {
+	color: white;
+	background-color: rgb(44, 44, 44);
+	border: 0px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 50px;
+	margin-left: 10px;
+}
+
+/*--- MAIN ---*/
 
 main section {
 	padding-top: 3rem;
@@ -71,10 +119,26 @@ main section {
 
 .section-feature .container {
 	display: flex;
+	justify-content: center;
 }
 
 .section-feature.reverse .container {
 	flex-direction: row-reverse;
+}
+
+.section-feature .container h1 {
+	font-size: 45px;
+	margin-bottom: 30px;
+}
+
+.section-feature .container p {
+	font-size: 15px;
+	margin-top: 15px;
+	line-height: 1.6;
+}
+
+.image img {
+	max-height: 400px;
 }
 
 .bkg-gray {
@@ -87,6 +151,40 @@ main section {
 
 .section-feature .text {
 	flex: 0 0 40%;
+}
+
+.section-full> * {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section-full .container h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.section-full .container p {
+	text-align: center;
+	font-size: 15px;
+}
+
+img ~ img {
+	margin-top: 40px;
+}
+
+.section-full .container span {
+	font-size: 25px;
+}
+
+#app-download-main {
+	border: 0px;
+	border-radius: 50px;
+	background-color: #7289DA;
+	color: white;
+	padding: 10px 15px 10px 15px;
+	margin-top: 30px;
 }
 
 /* footer */

@@ -1,11 +1,8 @@
+/*
 .navbar .container {
 	background-color: gold;
 }
 
-.jumbo {
-	background-image: url(../img/jumbo.png);
-	
-}
 
 .jumbo .content {
 	background-color: salmon;
@@ -26,6 +23,7 @@
 	background-color: green;
 	min-height: 500px;
 }
+*/
 
 footer .footer-column {
 	min-height: 300px;
