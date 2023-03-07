@@ -33,9 +33,14 @@
 	align-items: center;
 }
 
+.navbar .logo {
+	
+}
+
 .navbar .links a {
 	color: white;
 	text-decoration: none;
+	padding-inline: 25px;
 }
 
 

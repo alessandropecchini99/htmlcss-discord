@@ -3,7 +3,8 @@
 }
 
 .jumbo {
-	background-color: blue;
+	background-image: url(../img/jumbo.png);
+	
 }
 
 .jumbo .content {
