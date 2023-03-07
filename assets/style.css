@@ -37,8 +37,8 @@ svg {
 /* header */
 
 .navbar {
-	height: 4rem; /* TODO: check the value */
-	background-color: #255EE9; /* TODO: check the value */
+	height: 4rem;
+	background-color: #255EE9;
 }
 
 .navbar .container {
@@ -69,7 +69,7 @@ svg {
 }
 
 .links li:hover {
-	background-color: rgb(35,39,42);
+	background-color: #254fba;
 	border-radius: 50px;
 }
 
@@ -86,6 +86,10 @@ svg {
 	border-radius: 50px;
 	padding: 8px 13px;
 	margin-inline: 27.5px;
+}
+
+.container #whitebutton:hover {
+	background-color: rgb(215, 215, 215);
 }
 
 /*--- JUMBO ---*/
@@ -124,6 +128,10 @@ svg {
 	font-size: 15px;
 }
 
+#app-download:hover {
+	background-color: rgb(215, 215, 215);
+}
+
 #app-browser {
 	color: white;
 	background-color: rgb(35,39,42);
@@ -132,6 +140,10 @@ svg {
 	border-radius: 50px;
 	margin-left: 6px;
 	font-size: 15px;
+}
+
+#app-browser:hover {
+	background-color: rgb(57, 61, 63)
 }
 
 /*--- MAIN ---*/
@@ -144,6 +156,7 @@ main section {
 .section-feature .container {
 	display: flex;
 	justify-content: center;
+	color: rgb(35,39,42);
 }
 
 .section-feature.reverse .container {
@@ -227,6 +240,10 @@ main section {
 	margin-bottom: 70px;
 }
 
+#app-download-main:hover {
+	background-color: #5769ac;
+}
+
 /* footer */
 
 footer {
@@ -290,4 +307,8 @@ footer .footer-bottom {
 	background-color: #7289DA;
 	padding: 10px 15px;
 	font-size: 12px;
+}
+
+#register:hover {
+	background-color: #5769ac;
 }
