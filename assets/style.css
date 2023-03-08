@@ -96,7 +96,7 @@ svg {
 
 .jumbo .content {
 	max-width: 800px;
-	min-height: 250px;
+	min-height: 300px;
 	margin-inline: auto;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -106,11 +106,11 @@ svg {
 }
 
 .jumbo {
-	padding-top: 3rem;
-	padding-bottom: 4rem;
+	padding-top: 6.5rem;
+	padding-bottom: 3rem;
 	background-size: cover;
-	background-position: center;
 	background-image: url(../img/jumbo.png);
+	background-color: #255EE9;
 }
 
 .jumbo .content p {
